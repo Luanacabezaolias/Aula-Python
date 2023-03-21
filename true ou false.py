@@ -36,4 +36,3 @@ idade >= 18
 # menor de idade 
 idade < 18 
 not idade >= 18
-
