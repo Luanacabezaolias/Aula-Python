@@ -1,7 +1,18 @@
-letra = input("Informe uma letra:")
+letra = input("Informe uma letra: ")
 
-if letra != "a" or "e" or "i" or "o" or "u":
-    print(f'Consoante')
+letra = letra.lower()
+
+if letra == "a" or letra == "e" or letra == "i" or letra == "o" or letra == "u":
+    print('Vogal')
 
 else: 
-    print(f'Vogal')
+    print('Consoante')
+
+# ou 
+
+vogais = 'aieouAEIOU'
+
+if letra in vogais:
+    print('Vogal')
+else: 
+    print('Consoante')
